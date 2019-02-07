@@ -1,0 +1,14 @@
+$TTL		60000
+@		IN	SOA	dnspixel.pixel.org.	admin.dnspixel.pixel.org. (
+				2018100501		;serial
+				30			;refresh
+				15			;retry
+				60000			;expire
+				0			;negative cache ttl
+				)
+@		IN	NS	dnspixel.pixel.org.
+dnspixel	IN	A	192.168.1.2
+www		IN	A	192.168.1.3
+@		IN	MX	5	mail.pixel.org
+mail 		IN	A	192.168.1.2
+imap		IN	A	192.168.1.2

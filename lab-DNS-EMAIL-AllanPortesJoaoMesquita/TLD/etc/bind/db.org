@@ -1,0 +1,12 @@
+$TTL			60000
+@			IN	SOA	dnsorg.org.	admin.dnsorg.org. (
+					2018100501
+					30
+					15
+					60000
+					0
+)
+@			IN	NS	dnsorg.org.
+dnsorg			IN	A	192.168.2.2
+pixel			IN	NS	dnspixel.pixel.org.
+dnspixel.pixel		IN	A	192.168.1.2
